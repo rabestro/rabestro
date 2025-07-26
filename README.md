@@ -38,4 +38,4 @@ Here are some of the primary languages, tools, and platforms I work with:
 </p>
 
 ---
-⚡ **Fun Fact:** When I'm not coding, I enjoy strategic challenges like Dice Chess. I participated in the [3rd Latvian Dice Chess Championship](https://dicechess.net/3rd-latvian-dice-chess-championship-how-it-went/) in 2024.
+⚡ **Fun Fact:** When I'm not coding, I enjoy strategic challenges like [Dice Chess](https://dicechess.net).
