@@ -18,8 +18,8 @@ I'm building a modern suite of tools for Dice Chess:
 
 - **[Dice Chess Engine](https://github.com/rabestro/dicechess-engine-scala)**: A high-performance Expectimax engine written in Scala 3.
   - [View Documentation](https://jc.id.lv/dicechess-engine-scala/)
-- **[Dice Chess Lab](https://github.com/rabestro/dicechess-lab)**: Analysis and training platform built with FastAPI and Svelte 5.
-  - [View Documentation](https://jc.id.lv/dicechess-lab/)
+- **[Dice Chess Lab](https://dc.jc.id.lv/)**: Analysis and training platform built with FastAPI and Svelte 5.
+  - [View Documentation](https://dicechess-lab.jegors-cemisovs.workers.dev/)
 
 ---
 
@@ -46,10 +46,10 @@ I write about Scala, software architecture, and game engineering on [jc.id.lv](h
 ---
 
 ### 📊 GitHub Activity
-<div align="center">
+<p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rabestro&show_icons=true&theme=transparent&include_all_commits=true&count_private=true&title_color=3b82f6&icon_color=3b82f6&text_color=94a3b8" alt="GitHub Stats" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rabestro&layout=compact&langs_count=8&theme=transparent&title_color=3b82f6&text_color=94a3b8" alt="Top Languages" />
-</div>
+</p>
 
 ---
 
