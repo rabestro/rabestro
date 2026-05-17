@@ -51,7 +51,6 @@ I write about Scala, software architecture, and game engineering on [jc.id.lv](h
 </div>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rabestro&show_icons=true&theme=transparent&include_all_commits=true&count_private=true&title_color=3b82f6&icon_color=3b82f6&text_color=94a3b8" alt="GitHub Stats" />
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=rabestro&theme=transparent&hide_border=true&stroke=3b82f6&ring=3b82f6&fire=3b82f6&currStreakLabel=3b82f6" alt="GitHub Streak" />
 </div>
 
