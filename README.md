@@ -18,8 +18,7 @@ I'm building a modern suite of tools for Dice Chess:
 
 - **[Dice Chess Engine](https://github.com/rabestro/dicechess-engine-scala)**: A high-performance Expectimax engine written in Scala 3.
   - [View Documentation](https://jc.id.lv/dicechess-engine-scala/)
-- **[Dice Chess Lab](https://dc.jc.id.lv/)**: Analysis and training platform built with FastAPI and Svelte 5.
-  - [View Documentation](https://dicechess-lab.jegors-cemisovs.workers.dev/)
+- **[Dice Chess Analytics](https://github.com/rabestro/dicechess-analytics)**: A high-performance analytical backend for storing, normalizing, and analyzing 140k+ games using Scala 3 and PostgreSQL.
 
 ---
 
