@@ -17,8 +17,8 @@ I am an official **Maintainer** for the **Scala** and **AWK** tracks on [Exercis
 I'm building a modern suite of tools for Dice Chess:
 
 - **[Dice Chess Engine](https://github.com/rabestro/dicechess-engine-scala)**: A high-performance Expectimax engine written in Scala 3.
-  - [View Documentation](https://jc.id.lv/dicechess-engine-scala/)
 - **[Dice Chess Analytics](https://github.com/rabestro/dicechess-analytics)**: A high-performance analytical backend for storing, normalizing, and analyzing 140k+ games using Scala 3 and PostgreSQL.
+- **[Dice Chess UI](https://github.com/rabestro/dicechess-analytics-ui)**: A modern SvelteKit frontend for exploring and analyzing Dice Chess games.
 
 ---
 
