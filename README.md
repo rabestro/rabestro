@@ -28,7 +28,7 @@ I'm building a modern suite of high-performance tools and services for Dice Ches
 ### ✍️ Recent Writing
 I write about Scala, software architecture, and game engineering on [jc.id.lv](https://jc.id.lv).
 
-- 🤖 [Project Environment Optimization for Google Antigravity AI Agent](https://jc.id.lv/posts/project-environment-optimization-for-google-antigravity-ai-agent/)
+- 🎲 [Can You Trust the Dice? Provably-Fair Rolls in Dice Chess](https://fortemate.github.io/dicechess-play-api/provably-fair/)
 - 🪄 [Magic Bitboards in Scala 3](https://jc.id.lv/posts/magic-bitboards-in-scala-3/)
 - 🐎 [Leaper Algorithms and Bitboards in Scala 3](https://jc.id.lv/posts/leaper-algorithms-and-bitboards-in-scala-3/)
 - 🛡️ [Zero-cost Domain Modeling with Scala 3 Opaque Types](https://jc.id.lv/posts/zero-cost-domain-modeling-with-scala-3-opaque-types/)
