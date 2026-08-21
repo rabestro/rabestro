@@ -2,7 +2,7 @@
 
 ### Scala Maintainer | Open Source Mentor | Game Engine Architect
 
-I'm a Software Engineer with a passion for high-performance systems and developer education. Currently, I'm architecting a state-of-the-art **Dice Chess Engine** and mentoring the next generation of engineers on **Exercism**.
+I'm a Software Engineer with a passion for high-performance systems and developer education. Currently, I'm architecting a state-of-the-art **Dice Chess Engine** and platform at **[Fortemate](https://github.com/fortemate)** and mentoring the next generation of engineers on **Exercism**.
 
 ---
 
@@ -14,17 +14,21 @@ I am an official **Maintainer** for the **Scala** and **AWK** tracks on [Exercis
 ---
 
 ### ♟️ The Dice Chess Ecosystem
-I'm building a modern suite of tools for Dice Chess:
+I'm building a modern suite of high-performance tools and services for Dice Chess:
 
-- **[Dice Chess Engine](https://github.com/rabestro/dicechess-engine-scala)**: A high-performance Expectimax engine written in Scala 3.
-- **[Dice Chess Analytics](https://github.com/rabestro/dicechess-analytics)**: A high-performance analytical backend for storing, normalizing, and analyzing games using Scala 3 and PostgreSQL.
-- **[Dice Chess Analytics UI](https://github.com/rabestro/dicechess-analytics-ui)**: A modern SvelteKit frontend for exploring and analyzing Dice Chess games.
+- **[Dice Chess Engine](https://github.com/fortemate/dicechess-engine)**: Cross-platform Expectimax engine, move generator, and AI search targeting JVM, JavaScript, and WebAssembly.
+  - [View Documentation](https://fortemate.github.io/dicechess-engine/)
+- **[Dice Chess Play Platform](https://github.com/fortemate/dicechess-play)**: Public play site (SvelteKit static SPA on Cloudflare Pages) with real-time multiplayer & Bot API backend on **[Play API](https://github.com/fortemate/dicechess-play-api)**.
+  - [View Play API Documentation](https://fortemate.github.io/dicechess-play-api/)
+- **[Dice Chess Analytics](https://github.com/rabestro/dicechess-analytics)** & **[Analytics UI](https://github.com/rabestro/dicechess-analytics-ui)**: High-performance analytical hub and interactive explorer over 140k+ games using Scala 3, PostgreSQL, and Svelte 5.
+  - [View Analytics Documentation](https://rabestro.github.io/dicechess-analytics/)
 
 ---
 
 ### ✍️ Recent Writing
 I write about Scala, software architecture, and game engineering on [jc.id.lv](https://jc.id.lv).
 
+- 🤖 [Project Environment Optimization for Google Antigravity AI Agent](https://jc.id.lv/posts/project-environment-optimization-for-google-antigravity-ai-agent/)
 - 🪄 [Magic Bitboards in Scala 3](https://jc.id.lv/posts/magic-bitboards-in-scala-3/)
 - 🐎 [Leaper Algorithms and Bitboards in Scala 3](https://jc.id.lv/posts/leaper-algorithms-and-bitboards-in-scala-3/)
 - 🛡️ [Zero-cost Domain Modeling with Scala 3 Opaque Types](https://jc.id.lv/posts/zero-cost-domain-modeling-with-scala-3-opaque-types/)
