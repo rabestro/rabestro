@@ -20,8 +20,6 @@ I'm building a modern suite of high-performance tools and services for Dice Ches
   - [View Documentation](https://fortemate.github.io/dicechess-engine/)
 - **[Dice Chess Play Platform](https://github.com/fortemate/dicechess-play)**: Public play site (SvelteKit static SPA on Cloudflare Pages) with real-time multiplayer & Bot API backend on **[Play API](https://github.com/fortemate/dicechess-play-api)**.
   - [View Play API Documentation](https://fortemate.github.io/dicechess-play-api/)
-- **[Dice Chess Analytics](https://github.com/rabestro/dicechess-analytics)** & **[Analytics UI](https://github.com/rabestro/dicechess-analytics-ui)**: High-performance analytical hub and interactive explorer over 140k+ games using Scala 3, PostgreSQL, and Svelte 5.
-  - [View Analytics Documentation](https://rabestro.github.io/dicechess-analytics/)
 
 ---
 
