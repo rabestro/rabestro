@@ -1,60 +1,51 @@
-# Hi there, I'm Jegors! 👋
+# Jegors Čemisovs
 
-### Scala Maintainer | Open Source Mentor | Game Engine Architect
+**Software engineer · Java & Scala · Open-source maintainer and mentor**
 
-I'm a Software Engineer with a passion for high-performance systems and developer education. Currently, I'm architecting a state-of-the-art **Dice Chess Engine** and platform at **[Fortemate](https://github.com/fortemate)** and mentoring the next generation of engineers on **Exercism**.
+I'm the creator and developer behind [Fortemate](https://github.com/fortemate), where I build game engines, backend services, and applications. I share what I learn through open-source work, mentoring, and technical articles.
 
----
+[Articles](https://jc.id.lv/) · [LinkedIn](https://www.linkedin.com/in/jegors-cemisovs/) · [Exercism](https://exercism.org/profiles/rabestro)
 
-### 🏛️ Open Source & Mentorship
-I am an official **Maintainer** for the **Scala** and **AWK** tracks on [Exercism.org](https://exercism.org/profiles/rabestro).
-- 🎓 **100+ Testimonials** from mentored students in Java, Scala, Python, and Bash.
-- 🛠️ Actively contributing to the Scala ecosystem and teaching robust engineering patterns.
+## Building: Dice Chess for Fire TV
 
----
+An offline game for Amazon Fire TV, built with **TypeScript and React Native for Vega**. Two people share one screen and one remote, or one player takes on the on-device bots. Roll three dice, choose your moves, and capture the king.
 
-### ♟️ The Dice Chess Ecosystem
-I'm building a modern suite of high-performance tools and services for Dice Chess:
+The app includes an interactive tutorial, save and resume, and adaptive music. The Scala engine behind it also powers the web game.
 
-- **[Dice Chess Engine](https://github.com/fortemate/dicechess-engine)**: Cross-platform Expectimax engine, move generator, and AI search targeting JVM, JavaScript, and WebAssembly.
-  - [View Documentation](https://fortemate.github.io/dicechess-engine/)
-- **[Dice Chess Play Platform](https://github.com/fortemate/dicechess-play)**: Public play site (SvelteKit static SPA on Cloudflare Pages) with real-time multiplayer & Bot API backend on **[Play API](https://github.com/fortemate/dicechess-play-api)**.
-  - [View Play API Documentation](https://fortemate.github.io/dicechess-play-api/)
+[![Dice Chess against Rampage, captured on the Vega Virtual Device](assets/dice-chess-tv.png)](https://dicechess-tv.fortemate.com/)
 
----
+*Screenshot and demo recorded on the Vega Virtual Device.*
 
-### ✍️ Recent Writing
-I write about Scala, software architecture, and game engineering on [jc.id.lv](https://jc.id.lv).
+[Explore the game](https://dicechess-tv.fortemate.com/) · [Watch the demo](https://youtu.be/FWtUND7kmd8) · [Source code](https://github.com/fortemate/dicechess-tv)
 
-- 🎲 [Can You Trust the Dice? Provably-Fair Rolls in Dice Chess](https://fortemate.github.io/dicechess-play-api/provably-fair/)
-- 🪄 [Magic Bitboards in Scala 3](https://jc.id.lv/posts/magic-bitboards-in-scala-3/)
-- 🐎 [Leaper Algorithms and Bitboards in Scala 3](https://jc.id.lv/posts/leaper-algorithms-and-bitboards-in-scala-3/)
-- 🛡️ [Zero-cost Domain Modeling with Scala 3 Opaque Types](https://jc.id.lv/posts/zero-cost-domain-modeling-with-scala-3-opaque-types/)
-- 🛠️ [Unifying Monorepo Chaos with Mise](https://jc.id.lv/posts/unifying-monorepo-chaos-with-mise/)
+## Under the hood
 
----
+| Project | What I build |
+| --- | --- |
+| [Dice Chess Engine](https://github.com/fortemate/dicechess-engine) | Scala 3 move generation and AI search for JVM, JavaScript, and WebAssembly. |
+| [Dice Chess Play](https://github.com/fortemate/dicechess-play) | A SvelteKit web client for Dice Chess. |
+| [Dice Chess Play API](https://github.com/fortemate/dicechess-play-api) | The authoritative multiplayer server, Bot API, and rating ladder. |
 
-### 🛠️ Tech Stack & Skills
-<p>
-  <img src="https://img.shields.io/badge/scala-%23E32F27.svg?style=for-the-badge&logo=scala&logoColor=white" alt="Scala" />
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/svelte-%23f06529.svg?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte" />
-  <img src="https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-</p>
+## Open source & mentoring
 
----
+I maintain the **Scala** and **AWK** tracks on Exercism and mentor learners in Java, Scala, Python, and Bash. I enjoy making complex ideas approachable through small examples, code review, and practical feedback.
 
-### 📊 GitHub Activity
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rabestro&theme=react-dark&area=true&hide_border=true" alt="GitHub Activity Graph" />
-</div>
+## Latest articles
 
-<div align="center">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=rabestro&theme=transparent&hide_border=true&stroke=3b82f6&ring=3b82f6&fire=3b82f6&currStreakLabel=3b82f6" alt="GitHub Streak" />
-</div>
+From [jc.id.lv](https://jc.id.lv/), updated automatically each day.
 
----
+<!-- BLOG-POST-LIST:START -->
+- 2026-07-05 · [Scala Steward or Dependabot? Automating sbt Dependency Updates](https://jc.id.lv/posts/scala-steward-or-dependabot/)
+- 2026-06-30 · [Can You Trust the Dice? Provably-Fair Rolls in Dice Chess](https://jc.id.lv/posts/can-you-trust-the-dice/)
+- 2026-06-12 · [Git Hooks for Scala in Milliseconds: Lefthook, Native Scalafmt, and Betterleaks](https://jc.id.lv/posts/git-hooks-for-scala-in-milliseconds/)
+- 2026-05-17 · [Project Environment Optimization for Google Antigravity AI Agent](https://jc.id.lv/posts/project-environment-optimization-for-google-antigravity-ai-agent/)
+- 2026-05-14 · [Sliding Attacks in Chess: The Magic Bitboard Illusion in Scala 3](https://jc.id.lv/posts/magic-bitboards-in-scala-3/)
+<!-- BLOG-POST-LIST:END -->
 
-⚡ **Fun Fact:** When I'm not coding, I enjoy strategic challenges like [Dice Chess](https://dicechess.net).
+[All articles →](https://jc.id.lv/)
+
+## Tools I work with
+
+**Languages:** Scala · Java · TypeScript · Python · AWK
+
+**Applications & services:** React Native for Vega · SvelteKit · http4s · PostgreSQL · Docker
