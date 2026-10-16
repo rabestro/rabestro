@@ -1,5 +1,8 @@
 # Profile maintenance
 
+Keep this file named `profile-maintenance.md`: GitHub gives `.github/README.md`
+priority over the root README, including on the public profile.
+
 `Latest articles` fetches <https://jc.id.lv/feed.xml> daily at 06:23 UTC and
 can also be started with **Actions → Latest articles → Run workflow** after
 the workflow is merged into `main`.
