@@ -1,0 +1,59 @@
+name: Latest articles
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - scripts/**
+      - .github/workflows/latest-articles.yml
+  schedule:
+    - cron: '23 6 * * *' # Daily at 06:23 UTC; avoid the top-of-hour rush.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: latest-articles-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Test article updates without network access
+        run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
+
+  update:
+    needs: validate
+    if: >-
+      github.repository == 'rabestro/rabestro' &&
+      github.ref == 'refs/heads/main' &&
+      (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+      - name: Fetch latest articles
+        run: python3 scripts/update_articles.py
+      - name: Commit only when the article list changes
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No new articles."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'docs: refresh latest articles'
+          git push origin HEAD:main
