@@ -6,17 +6,17 @@ I'm the creator and developer behind [Fortemate](https://github.com/fortemate), 
 
 [Articles](https://jc.id.lv/) · [LinkedIn](https://www.linkedin.com/in/jegors-cemisovs/) · [Exercism](https://exercism.org/profiles/rabestro)
 
-## Building: Dice Chess for Fire TV
+## Featured: Dice Chess for Fire TV
 
 An offline game for Amazon Fire TV, built with **TypeScript and React Native for Vega**. Two people share one screen and one remote, or one player takes on the on-device bots. Roll three dice, choose your moves, and capture the king.
 
-The app includes an interactive tutorial, save and resume, and adaptive music. The Scala engine behind it also powers the web game.
+The app includes an interactive voice-guided tutorial, save and resume, VoiceView accessibility, and adaptive music. The Scala engine behind it also powers the web game.
 
 [![Dice Chess against Rampage, captured on the Vega Virtual Device](assets/dice-chess-tv.png)](https://dicechess-tv.fortemate.com/)
 
 *Screenshot and demo recorded on the Vega Virtual Device.*
 
-[Explore the game](https://dicechess-tv.fortemate.com/) · [Watch the demo](https://youtu.be/FWtUND7kmd8) · [Source code](https://github.com/fortemate/dicechess-tv)
+[Explore the game](https://dicechess-tv.fortemate.com/) · [Amazon Appstore](https://www.amazon.com/dp/B0HL6K9N47/) · [Watch the demo](https://youtu.be/Pp3JgSyoN18) · [Source code](https://github.com/fortemate/dicechess-tv)
 
 ## Under the hood
 
