@@ -22,6 +22,7 @@ The app includes an interactive voice-guided tutorial, save and resume, VoiceVie
 
 | Project | What I build |
 | --- | --- |
+| [Vega VVD Driver](https://github.com/fortemate/vega-vvd-driver) | Automation driver & MCP server for the Amazon Vega Virtual Device: remote keys, video/audio capture, and scriptable verification. |
 | [Dice Chess Engine](https://github.com/fortemate/dicechess-engine) | Scala 3 move generation and AI search for JVM, JavaScript, and WebAssembly. |
 | [Dice Chess Play](https://github.com/fortemate/dicechess-play) | A SvelteKit web client for Dice Chess. |
 | [Dice Chess Play API](https://github.com/fortemate/dicechess-play-api) | The authoritative multiplayer server, Bot API, and rating ladder. |
