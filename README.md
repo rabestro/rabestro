@@ -36,11 +36,11 @@ I maintain the **Scala** and **AWK** tracks on Exercism and mentor learners in J
 From [jc.id.lv](https://jc.id.lv/), updated automatically each day.
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-11-12 · [All Tests Green, Still Wrong: One Forth Bug in Three Languages](https://jc.id.lv/posts/all-tests-green-still-wrong/)
 - 2026-11-11 · [Check Is Not a Boolean: From 10 Milliseconds to 8 Microseconds in Scala 3](https://jc.id.lv/posts/king-capture-probability-in-8-microseconds/)
 - 2026-07-05 · [Scala Steward or Dependabot? Automating sbt Dependency Updates](https://jc.id.lv/posts/scala-steward-or-dependabot/)
 - 2026-06-30 · [Can You Trust the Dice? Provably-Fair Rolls in Dice Chess](https://jc.id.lv/posts/can-you-trust-the-dice/)
 - 2026-06-12 · [Git Hooks for Scala in Milliseconds: Lefthook, Native Scalafmt, and Betterleaks](https://jc.id.lv/posts/git-hooks-for-scala-in-milliseconds/)
-- 2026-05-17 · [Project Environment Optimization for Google Antigravity AI Agent](https://jc.id.lv/posts/project-environment-optimization-for-google-antigravity-ai-agent/)
 <!-- BLOG-POST-LIST:END -->
 
 [All articles →](https://jc.id.lv/)
